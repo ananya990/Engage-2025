@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Hero() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  const targetDate = new Date("2025-11-03T09:00:00");
+  const targetDate = new Date("2025-11-04T09:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
