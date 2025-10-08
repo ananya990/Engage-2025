@@ -69,7 +69,7 @@ function Faqs() {
         className='w-full h-auto md:py-10 flex items-center justify-center overflow-x-hidden md:mt-2'
       >
         <div className='flex flex-col items-center space-y-5 md:space-y-10 xl:w-2/4 md:w-3/4 w-full px-5 z-30'>
-          <motion.span className='text-white font-bold text-xl sm:text-xl md:text-2xl lg:text-4xl' variants={itemVariants}>
+          <motion.span className='text-white font-bold text-4xl' variants={itemVariants}>
             Frequently Asked Questions
           </motion.span>
           <div className='h-full w-full'>

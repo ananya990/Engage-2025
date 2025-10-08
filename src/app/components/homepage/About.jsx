@@ -4,7 +4,10 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-x-12 bg-opacity-60 backdrop-blur-md rounded-lg p-6 max-w-3xl mx-auto my-12 text-white">
+    <section className="
+      py-20
+      flex flex-col md:flex-row items-center justify-center gap-x-12 bg-opacity-60 backdrop-blur-md rounded-lg p-6 max-w-3xl mx-auto my-12 text-white
+    ">
       {/* Logo on the left */}
       <div className="flex-shrink-0 mb-6 md:mb-0">
         <img

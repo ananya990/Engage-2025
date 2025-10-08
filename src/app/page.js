@@ -15,11 +15,14 @@ export default function Home() {
 
       <main className="relative z-10">
         <Hero />
-        <About />
+        <div className="px-3">
+          <About />
+        </div>
         <Sponsors />
         <Faqs />
-        <Footer />
       </main>
+
+      <Footer />
     </>
   );
 }
