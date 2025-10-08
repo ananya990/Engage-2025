@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Engage 2025",
-  description: "Hackathon",
+  description: "Momentum Hackathon",
 };
 
 export default function RootLayout({ children }) {

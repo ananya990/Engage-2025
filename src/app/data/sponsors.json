@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Polygon",
+    "logo": "/sponsors/polygon.png",
+    "link": "https://polygon.technology/"
+  },
+  {
+    "name": "ETHIndia",
+    "logo": "/sponsors/ethindia.jpg",
+    "link": "https://ethindia2024.devfolio.co/overview"
+  },
+  {
+    "name": "Internshala",
+    "logo": "/sponsors/internshala.png",
+    "link": "https://internshala.com/"
+  },
+  {
+    "name": "Coding Ninjas",
+    "logo": "/sponsors/codingninjas.png",
+    "link": "https://www.codingninjas.com/"
+  },
+  {
+    "name": "Wolfram",
+    "logo": "/sponsors/wolframlogo.png",
+    "link": "https://www.wolframl.com/"
+  }
+]
