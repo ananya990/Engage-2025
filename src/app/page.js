@@ -10,7 +10,7 @@ import NavBar from "./components/globals/NavBar";
 export default function Home() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar />
       <ShaderBackground />
 
       <main className="relative z-10">
@@ -22,7 +22,7 @@ export default function Home() {
         <Faqs />
       </main>
 
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
