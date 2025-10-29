@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Hero() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -60,6 +61,7 @@ export default function Hero() {
 
       {/* CTA and Countdown */}
       <div className="flex flex-col sm:flex-row items-center gap-6">
+      <Link href="https://momentum.ncuindia.edu/events/63">
         <motion.button
           className="px-6 py-3 bg-purple-600 hover:shadow-[0_0_15px_#8b5cf6] transition-all duration-300 rounded-md font-semibold text-white"
           whileHover={{ scale: 1.1 }}
@@ -67,6 +69,7 @@ export default function Hero() {
         >
           Register Now
         </motion.button>
+        </Link>
 
         <div className="flex space-x-4 text-center text-sm sm:text-base font-mono">
           {["days", "hours", "minutes", "seconds"].map((unit) => (
@@ -77,6 +80,28 @@ export default function Hero() {
           ))}
         </div>
       </div>
+
+      {/* WhatsApp Section */}
+      <motion.div
+        className="flex flex-col sm:flex-row items-center gap-4 mt-6"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.5, duration: 0.8 }}
+      >
+        <p className="text-gray-300 text-sm sm:text-base font-medium">
+          Connect with Builders on WhatsApp
+        </p>
+        <motion.a
+          href="https://chat.whatsapp.com/JCFEQldjDKfAXD13DKAr7e?mode=wwt" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-green-500 hover:bg-green-700 transition-all duration-300 rounded-md font-semibold text-white"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          WhatsApp Group
+        </motion.a>
+      </motion.div>
     </div>
   );
 }

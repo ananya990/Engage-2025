@@ -15,7 +15,7 @@ function Footer() {
         <a href="https://www.youtube.com/channel/UCBbpxkdsOHEVokkCMMxDD8A" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
           <FaYoutube className="hover:text-red-500 transition duration-200" size={20} />
         </a>
-        <a href="https://discord.gg/yourinvite" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+        <a href="https://discord.gg/X8TwM7EF" target="_blank" rel="noopener noreferrer" aria-label="Discord">
           <FaDiscord className="hover:text-indigo-400 transition duration-200" size={20} />
         </a>
       </div>

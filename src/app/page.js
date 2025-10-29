@@ -6,23 +6,27 @@ import About from "./components/homepage/About";
 import Sponsors from "./components/homepage/Sponsors";
 import Faqs from "./components/homepage/Faqs";
 import NavBar from "./components/globals/NavBar";
+import PPTTemplate from "./components/homepage/PPTTemplate";
+import EventsMarquee from "./components/homepage/EventsMarquee";
 
 export default function Home() {
   return (
     <>
-      {/* <NavBar />
+      <NavBar />
       <ShaderBackground />
 
       <main className="relative z-10">
         <Hero />
+        <EventsMarquee/>
         <div className="px-3">
           <About />
         </div>
-        <Sponsors />
+        <PPTTemplate />
+        {/* <Sponsors /> */}
         <Faqs />
       </main>
 
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
